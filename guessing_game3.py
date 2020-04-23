@@ -25,7 +25,7 @@ while guessesTaken < 5:
 	high_or_low=sameno(random_number, user_guess) # store the result of the function in a variable 'high_or_low'
 
 	if high_or_low == "win":
-		print("You win with a score of: " + str(score))
+		print("\nWell done, number was:"+str(random_number)+"\nYou won with a score of: " + str(score))
 		guessesTaken = 5
 
 	elif high_or_low == "small":
@@ -37,6 +37,6 @@ while guessesTaken < 5:
 		print("Number is too big. You have "+str(tries)+" tries left and your score is now "+str(score))
 
 if high_or_low == "win":
-	print("Done")		
+	print("Bye!")		
 else:
 	print("you loose ! The number was "+ str(random_number))
