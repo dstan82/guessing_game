@@ -1,8 +1,8 @@
 # guessing_game
 Guess a random generated number with hints (big/small)
 
-#Installation:
+Installation:
 git clone https://github.com/dstan82/guessing_game.git
 
-#Run: 
+Run: 
 python guessing_game/guessing_game3.py
